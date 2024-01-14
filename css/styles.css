@@ -1,56 +1,76 @@
-styles.css
-
 /* styles.css */
 body {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px; /* Set the desired font size */
+  background-color: #f9e6e6;
+  color: #0a0c0dd5;
+  font-family: 'Montserrat', serif;
+  font-size: 16px;
   /* Add other styling as needed */
 }
 
 h1 {
   font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
   /* Add other styling as needed */
-  font-size: 28px; /* Set the desired font size */
-
 }
-body {
-    background-color: #f9e6e6;
-    /* Pastel Pink */
-    color: #333;
-    /* Dark Gray */
-    font-family: 'Montserrat', serif;
-    /* Elegant font */
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  .header {
-    background-color: #c5e1a5;
-    /* Pastel Green */
-    padding: 20px;
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #c5e1a5;
+  padding: 20px;
+  text-align: center;
+}
+
+.section {
+  background-color: #fddde6;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #a6c0fe;
+  color: #52121268;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #87a8f5;
+}
+
+.personal-image {
+  object-fit: contain;
+  width: 500px;
+}
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: whitesmoke;
     text-align: center;
-  }
-  
-  .section {
-    background-color: #fddde6;
-    /* Pastel Peach */
-    padding: 30px;
-    margin-bottom: 20px;
-  }
-  
-  .button {
-    background-color: #a6c0fe;
-    /* Pastel Blue */
-    color: #333;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .button:hover {
-    background-color: #87a8f5;
-    /* Lighter Blue on Hover */
-  }
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.topnav a:hover {
+    background-color: darkcyan;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+footer {
+    background-color: #c5e1a5;
+    padding: 10px;
+    text-align: center;
+}
